@@ -5,7 +5,7 @@
       "type": "@type",
       "schema": "https://schema.org/",
       "StudentCredential": {
-        "@id": "https://github.com/Nandeesh778/educational-credentials/student.json#StudentCredential"
+        "@id": "https://nandeesh778.github.io/educational-credentials/student.json#StudentCredential"
       },
       "studentId": "schema:identifier",
       "studentDigitalId": "schema:identifier",
