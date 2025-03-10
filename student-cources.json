@@ -1,0 +1,29 @@
+{
+  "@context": {
+    "@version": 1.1,
+    "@protected": true,
+    "type": "@type",
+    "schema": "https://schema.org/",
+    "StudentCredential": {
+      "@id": "https://nandeesh778.github.io/my-files/student.json#StudentCredential"
+    },
+    "studentId": "schema:identifier",
+    "studentDigitalId": "schema:identifier",
+    "studentName": "schema:name",
+    "email": "schema:email",
+    "mobile": "schema:telephone",
+    "gender": "schema:gender",
+    "degree": "schema:EducationalOccupationalCredential",
+    "major": "schema:educationalProgramMode",
+    "cgpa": "schema:ratingValue",
+    "graduationDate": "schema:dateIssued",
+    "osOwner": "schema:Text",
+    "courses": {
+      "@id": "schema:hasCourse",
+      "@container": "@set"
+    },
+    "courseName": "schema:name",
+    "courseCode": "schema:identifier",
+    "grade": "schema:ratingValue"
+  }
+}
