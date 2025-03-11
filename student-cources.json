@@ -20,7 +20,7 @@
     "osOwner": "schema:Text",
     "courses": {
       "@id": "schema:hasCourse",
-      "@container": "@set"
+      "@container": "@list"
     },
     "courseName": "schema:name",
     "courseCode": "schema:identifier",
