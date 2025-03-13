@@ -19,11 +19,11 @@
         "graduationDate": "schema:dateIssued",
         "osOwner": "schema:Text",
         "courses": {
-            "@id": "schema:hasCourse",
-            "@container": "@set",
-	    "courseName": "schema:name",
-	    "courseCode": "schema:identifier",
-	    "grade": "schema:ratingValue"
-        }
+        "@id": "schema:hasCourse",
+        "@container": "@set"
+        },
+       "courseName": "schema:name",
+       "courseCode": "schema:identifier",
+       "grade": "schema:ratingValue"
     }
 }
