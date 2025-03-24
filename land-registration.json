@@ -14,11 +14,30 @@
         "email": "schema:email",
         "mobile": "schema:telephone",
         "propertyType": "schema:Text",
-        "propertyLocation": "schema:address",
-        "propertySize": "schema:quantitativeValue",
-        "propertyValue": "schema:MonetaryAmount",
+        "propertyLocation": {
+            "@id": "schema:Place",
+            "streetAddress": "schema:streetAddress",
+            "addressLocality": "schema:addressLocality",
+            "addressRegion": "schema:addressRegion",
+            "postalCode": "schema:postalCode",
+            "addressCountry": "schema:addressCountry"
+        },
+        "propertySize": {
+            "@id": "schema:QuantitativeValue",
+            "value": "schema:value",
+            "unitText": "schema:unitText"
+        },
+        "propertyValue": {
+            "@id": "schema:MonetaryAmount",
+            "value": "schema:value",
+            "currency": "schema:currency"
+        },
         "registrationDate": "schema:dateIssued",
-        "issuingAuthority": "schema:Organization",
+        "issuingAuthority": {
+            "@id": "schema:Organization",
+            "name": "schema:name",
+            "url": "schema:url"
+        },
         "legalStatus": "schema:Text"
     }
 }
