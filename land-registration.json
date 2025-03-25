@@ -17,8 +17,7 @@
         "propertyLocation": "schema:Text",
         "propertySize": "schema:unitText",
         "registrationDate": "schema:dateIssued",
-        "issuingAuthority.name": "schema:name",
-        "issuingAuthority.url": "schema:url",
+        "issuingAuthority": "schema:Text",
         "legalStatus": "schema:Text"
     }
 }
