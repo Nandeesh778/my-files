@@ -1,0 +1,28 @@
+{
+    "@context": {
+        "@version": 1.1,
+        "@protected": true,
+        "type": "@type",
+        "schema": "https://schema.org/",
+        "CARCertificate": {
+            "@id": "https://nandeesh778.github.io/my-files/car-registration.json#CARCertificate"
+        },
+        "certificateId": "schema:identifier",
+        "propertyId": "schema:identifier",
+        "ownerName": "schema:name",
+        "ownerCPF": "schema:identifier",
+        "email": "schema:email",
+        "mobile": "schema:telephone",
+        "propertyType": "schema:Text",
+        "propertyLocation": "schema:Text",
+        "propertySize": "schema:unitText",
+        "biome": "schema:Text",
+        "nativeVegetation": "schema:Text",
+        "agriculturalArea": "schema:Text",
+        "legalReserve": "schema:Text",
+        "permanentPreservationArea": "schema:Text",
+        "environmentalLiabilities": "schema:Text",
+        "registrationDate": "schema:dateIssued",
+        "legalStatus": "schema:Text"
+    }
+}
