@@ -7,7 +7,6 @@
         "LandRegistrationCertificate": {
             "@id": "https://nandeesh778.github.io/my-files/land-registration.json#LandRegistrationCertificate"
         },
-        "type": "@type",
         "certificateId": "schema:identifier",
         "propertyId": "schema:identifier",
         "ownerName": "schema:name",
