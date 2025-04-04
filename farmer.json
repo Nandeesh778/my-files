@@ -24,6 +24,9 @@
     },
     "statusPurpose": "schema:Text",
     "statusListIndex": "schema:Integer",
-    "statusListCredential": "schema:URL"
+    "statusListCredential": "schema:URL",
+    "StatusList2021Entry": {
+      "@id": "https://w3id.org/vc/status-list#StatusList2021Entry"
+    }
   }
 }
