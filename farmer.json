@@ -17,6 +17,27 @@
     "major": "schema:educationalProgramMode",
     "cgpa": "schema:ratingValue",
     "graduationDate": "schema:dateIssued",
-    "osOwner": "schema:text"
+    "osOwner": "schema:Text",
+
+    "credentialStatus": {
+      "@id": "https://www.w3.org/2018/credentials#credentialStatus",
+      "@type": "@id"
+    },
+
+    "statusPurpose": {
+      "@id": "https://w3id.org/vc/status-list#statusPurpose",
+      "@type": "https://www.w3.org/2001/XMLSchema#string"
+    },
+    "statusListIndex": {
+      "@id": "https://w3id.org/vc/status-list#statusListIndex",
+      "@type": "https://www.w3.org/2001/XMLSchema#integer"
+    },
+    "statusListCredential": {
+      "@id": "https://w3id.org/vc/status-list#statusListCredential",
+      "@type": "@id"
+    },
+    "BitstringStatusListEntry": {
+      "@id": "https://w3id.org/vc/status-list#BitstringStatusListEntry"
+    }
   }
 }
