@@ -4,8 +4,8 @@
     "@protected": true,
     "type": "@type",
     "schema": "https://schema.org/",
-    "FarmerCredential": {
-      "@id": "https://nandeesh778.github.io/my-files/welearntt-courses.json#FarmerCredential"
+    "WelearnttCredential": {
+      "@id": "https://nandeesh778.github.io/my-files/welearntt-courses.json#WelearnttCredential"
     },
     "uuid": "schema:identifier",
     "email": "schema:email",
