@@ -1,0 +1,29 @@
+{
+  "@context": [
+    "https://www.w3.org/ns/credentials/v2",
+    {
+      "schema": "https://schema.org/",
+      "welearn": "https://nandeesh778.github.io/my-files/welearntt-courses.json#",
+      "StudentCredential": {
+        "@id": "welearn:StudentCredential"
+      },
+      "uuid": "schema:identifier",
+      "email": "schema:email",
+      "cFullname": "schema:name",
+      "dateRegistered": "schema:dateCreated",
+      "courses": {
+        "@id": "schema:hasCourse",
+        "@container": "@list"
+      },
+      "learningPartner": "schema:provider",
+      "courseName": "schema:name",
+      "courseHours": "schema:timeRequired",
+      "skillLevel": "schema:educationalLevel",
+      "courseProgress": "schema:percentComplete",
+      "courseGrade": "schema:ratingValue",
+      "status": "schema:courseMode",
+      "completionDate": "schema:dateCompleted",
+      "certificateExpirationDate": "schema:validThrough"
+    }
+  ]
+}
