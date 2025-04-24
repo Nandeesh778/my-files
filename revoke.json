@@ -1,0 +1,38 @@
+{
+  "@context": {
+    "@version": 1.1,
+    "@protected": true,
+
+    "type": "@type",
+    "schema": "https://schema.org/",
+
+    "StudentCredential": {
+      "@id": "https://Nandeesh778/my-files/revoke.json#StudentCredential"
+    },
+
+    "uuid": "schema:identifier",
+    "email": "schema:email",
+    "cFullname": "schema:name",
+    "dateRegistered": "schema:dateCreated",
+
+    "courses": {
+      "@id": "schema:hasCourse",
+      "@container": "@list"
+    },
+
+    "learningPartner": "schema:provider",
+    "courseName": "schema:name",
+    "courseHours": "schema:timeRequired",
+    "skillLevel": "schema:educationalLevel",
+    "courseProgress": "schema:percentComplete",
+    "courseGrade": "schema:ratingValue",
+    "status": "schema:courseMode",
+    "completionDate": "schema:dateCompleted",
+    "certificateExpirationDate": "schema:validThrough",
+
+    "credentialStatus": {
+      "@id": "https://www.w3.org/2018/credentials#credentialStatus",
+      "@type": "@id"
+    }
+  }
+}
