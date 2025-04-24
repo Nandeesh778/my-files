@@ -32,7 +32,12 @@
 
     "credentialStatus": {
       "@id": "https://www.w3.org/2018/credentials#credentialStatus",
-      "@type": "@id"
+      "@type": "schema:CreativeWork",
+      "statusPurpose": "schema:purpose",
+      "statusListIndex": "schema:index",
+      "id": "schema:identifier",
+      "type": "schema:type",
+      "statusListCredential": "schema:identifier"
     }
   }
 }
