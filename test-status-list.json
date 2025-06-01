@@ -28,14 +28,6 @@
     "courseGrade": "schema:ratingValue",
     "status": "schema:courseMode",
     "completionDate": "schema:dateCompleted",
-    "certificateExpirationDate": "schema:validThrough",
-
-   "credentialStatus": {
-      "@id": "vc:credentialStatus",
-      "@type": "@json"
-    },
-    "statusPurpose": "statusList2021:statusPurpose",
-    "statusListIndex": "statusList2021:statusListIndex",
-    "statusListCredential": "statusList2021:statusListCredential"
+    "certificateExpirationDate": "schema:validThrough"
   }
 }
