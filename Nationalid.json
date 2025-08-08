@@ -4,8 +4,8 @@
     "@protected": true,
     "type": "@type",
     "schema": "https://schema.org/",
-    "FarmerCredential": {
-      "@id": "https://mosip.github.io/inji-config/contexts/farmer.json#FarmerCredential"
+    "NationalIDCredential": {
+      "@id": "https://mosip.github.io/inji-config/contexts/farmer.json#NationalIDCredential"
     },
     "firstName": "schema:givenName",
     "lastName": "schema:familyName",
