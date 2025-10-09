@@ -1,0 +1,27 @@
+{
+  "@context": {
+    "@version": 1.1,
+    "@protected": true,
+    "type": "@type",
+    "schema": "https://schema.org/",
+    "passport": {
+      "@id": "https://nandeesh778.github.io/my-files/passport.json#passport"
+    },
+    "recipientFirstName": "schema:Text",
+    "recipientLastName": "schema:Text",
+    "gender": "schema:Text",
+    "dateOfBirth": "schema:Text",
+    "placeOfBirthLine1": "schema:Text",
+    "recipientMotherName": "schema:Text",
+    "recipientFatherName": "schema:Text",
+    "placeOfRegistration1": "schema:Text",
+    "dateOfRegistration": "schema:Text",
+    "placeOfCertificationLine1": "schema:Text",
+    "dateOfCertification": "schema:Text",
+    "placeOfBirthLine2": "schema:Text",
+    "placeOfRegistration2": "schema:Text",
+    "placeOfCertificationLine2": "schema:Text",
+    "recipientEmail": "schema:Text",
+    "recipientPhone": "schema:Text"
+  }
+}
