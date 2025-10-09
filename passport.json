@@ -4,8 +4,8 @@
     "@protected": true,
     "type": "@type",
     "schema": "https://schema.org/",
-    "passport": {
-      "@id": "https://nandeesh778.github.io/my-files/passport.json#passport"
+    "passportCertificate": {
+      "@id": "https://nandeesh778.github.io/my-files/passport.json#passportCertificate"
     },
     "recipientFirstName": "schema:Text",
     "recipientLastName": "schema:Text",
