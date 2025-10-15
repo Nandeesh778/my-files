@@ -20,7 +20,10 @@
     "resident_country": "schema:Text",
     "document_number": "schema:Text",
     "issuing_country": "schema:Text",
-    "driving_privileges": "schema:Text",
+    "driving_privileges": {
+          "@id": "schema:CategoryCode",
+          "@container": "@set"
+        },
     "email_id": "schema:Text",
     "portrait": "schema:Text"
   }
