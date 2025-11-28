@@ -1,5 +1,5 @@
 {
-  "credential_issuer": "http://localhost:8090",
+  "credential_issuer": "https://prod-opt.credissuer.com/certify",
   "authorization_servers": [
     "https://prod-opt.credissuer.com"
   ],
