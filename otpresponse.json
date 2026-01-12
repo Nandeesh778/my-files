@@ -1,0 +1,9 @@
+{
+  "status": "success",
+  "status_code": 200,
+  "message": "OTP sent successfully",
+  "data": {
+    "citizen_id": "c7c18b2f-4031-4214-b2c8-438f32e98f60",
+    "phone_number": "+2399838500"
+  }
+}
