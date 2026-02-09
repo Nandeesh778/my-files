@@ -1,0 +1,18 @@
+{
+  "@context": {
+    "@version": 1.1,
+    "@protected": true,
+    "type": "@type",
+    "schema": "https://schema.org/",
+    "degreeCertificate": {
+      "@id": "https://mosip.github.io/inji-config/contexts/farmer.json#degreeCertificate"
+    },
+    "recipientName": "schema:recipientName",
+    "certificationDetail1": "schema:certificationDetail1",
+    "certificationDetail2": "schema:certificationDetail2",
+    "descriptionLine3": "schema:descriptionLine3",
+    "descriptionLine4": "schema:descriptionLine4",
+    "recipientEmail": "schema:recipientEmail",
+    "recipientPhone": "schema:recipientPhone"
+  }
+}
