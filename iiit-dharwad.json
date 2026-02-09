@@ -7,12 +7,12 @@
     "degreeCertificate": {
       "@id": "https://mosip.github.io/inji-config/contexts/farmer.json#degreeCertificate"
     },
-    "recipientName": "schema:recipientName",
-    "certificationDetail1": "schema:certificationDetail1",
-    "certificationDetail2": "schema:certificationDetail2",
-    "descriptionLine3": "schema:descriptionLine3",
-    "descriptionLine4": "schema:descriptionLine4",
-    "recipientEmail": "schema:recipientEmail",
-    "recipientPhone": "schema:recipientPhone"
+    "recipientName": "schema:Text",
+    "certificationDetail1": "schema:Text",
+    "certificationDetail2": "schema:Text",
+    "descriptionLine3": "schema:Text",
+    "descriptionLine4": "schema:Text",
+    "recipientEmail": "schema:Text",
+    "recipientPhone": "schema:Text"
   }
 }
