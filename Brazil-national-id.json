@@ -98,7 +98,7 @@
             },
             "display": [
                 {
-                    "name": “Brazil National ID",
+                    "name": "Brazil National ID",
                     "locale": "en",
                     "logo": {
                         "url": "https://prod-credissuer-assets.s3.ap-south-1.amazonaws.com/default-logos/brazil_logo.png",
