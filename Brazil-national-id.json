@@ -1,0 +1,116 @@
+{
+    "credential_issuer": "https://prod-opt.credissuer.com/certify",
+    "authorization_servers": [
+        "https://prod-opt.credissuer.com"
+    ],
+    "credential_endpoint": "https://prod-opt.credissuer.com/certify/v1/certify/issuance/credential",
+    "credential_configurations_supported": {
+        "nationalID": {
+            "format": "ldp_vc",
+            "scope": "mock_identity_vc_ldp",
+            "order": [
+                "surName",
+                "givenName",
+                "dateOfBirth",
+                "sex",
+                "placeOfBirth",
+                "nrcNumber"
+            ],
+            "proof_types_supported": {
+                "jwt": {
+                    "proof_signing_alg_values_supported": [
+                        "RS256",
+                        "PS256"
+                    ]
+                }
+            },
+            "holder": {
+                "id": [
+                    {
+                        "name": "id",
+                        "locale": "en"
+                    }
+                ]
+            },
+            "credential_definition": {
+                "type": [
+                    "VerifiableCredential",
+                    "MockVerifiableCredential"
+                ],
+                "credentialSubject": {
+                    "surName": {
+                        "display": [
+                            {
+                                "name": "Sur Name",
+                                "locale": "en"
+                            }
+                        ]
+                    },
+                    "givenName": {
+                        "display": [
+                            {
+                                "name": "Given Name",
+                                "locale": "en"
+                            }
+                        ]
+                    },
+                    "dateOfBirth": {
+                        "display": [
+                            {
+                                "name": "Date of Birth",
+                                "locale": "en"
+                            }
+                        ]
+                    },
+                    "sex": {
+                        "display": [
+                            {
+                                "name": "Sex",
+                                "locale": "en"
+                            }
+                        ]
+                    },
+                    "placeOfBirth": {
+                        "display": [
+                            {
+                                "name": "Place of Birth",
+                                "locale": "en"
+                            }
+                        ]
+                    },
+                    "nrcNumber": {
+                        "display": [
+                            {
+                                "name": "NRC Number",
+                                "locale": "en"
+                            }
+                        ]
+                    },
+                    "nationality": {
+                        "display": [
+                            {
+                                "name": "Nationality",
+                                "locale": "en"
+                            }
+                        ]
+                    }
+                }
+            },
+            "display": [
+                {
+                    "name": “Brazil National ID",
+                    "locale": "en",
+                    "logo": {
+                        "url": "https://prod-credissuer-assets.s3.ap-south-1.amazonaws.com/default-logos/brazil_logo.png",
+                        "alt_text": "Logo"
+                    },
+                    "background_image": {
+                        "uri": "https://img.freepik.com/free-vector/digital-technology-background-with-abstract-wave-border_53876-117508.jpg"
+                    },
+                    "background_color": "#f8efea",
+                    "text_color": "#000000"
+                }
+            ]
+        }
+    }
+}
