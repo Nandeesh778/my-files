@@ -91,7 +91,7 @@
           "dateOfIssue": {
             "display": [
               {
-                "name": "Date of Issue",
+                "name": "Date of issuance",
                 "locale": "en"
               }
             ]
