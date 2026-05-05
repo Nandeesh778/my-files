@@ -5,16 +5,18 @@
   ],
   "credential_endpoint": "https://sziopt.techno-associates.live/certify/v1/certify/issuance/credential",
   "credential_configurations_supported": {
-    "nationalID": {
+    "nationalID02": {
       "format": "ldp_vc",
       "scope": "mock_identity_vc_ldp",
       "order": [
         "surName",
-        "givenName",
+        "otherName",
         "dateOfBirth",
         "sex",
         "placeOfBirth",
-        "nrcNumber"
+        "nrcNumber",
+        "dateOfIssue",
+        "nationality"
       ],
       "proof_types_supported": {
         "jwt": {
@@ -46,10 +48,10 @@
               }
             ]
           },
-          "givenName": {
+          "otherName": {
             "display": [
               {
-                "name": "Given Name",
+                "name": "Other Name",
                 "locale": "en"
               }
             ]
@@ -82,6 +84,14 @@
             "display": [
               {
                 "name": "NRC Number",
+                "locale": "en"
+              }
+            ]
+          },
+          "dateOfIssue": {
+            "display": [
+              {
+                "name": "Date of Issue",
                 "locale": "en"
               }
             ]
@@ -121,7 +131,9 @@
         "dateOfBirth",
         "sex",
         "nationality",
-        "nrcNumber"
+        "nrcNumber",
+        "dateOfIssue",
+        "expiryDate"
       ],
       "proof_types_supported": {
         "jwt": {
@@ -181,6 +193,22 @@
             "display": [
               {
                 "name": "NRC Number",
+                "locale": "en"
+              }
+            ]
+          },
+          "dateOfIssue": {
+            "display": [
+              {
+                "name": "Date of issuance",
+                "locale": "en"
+              }
+            ]
+          },
+          "expiryDate": {
+            "display": [
+              {
+                "name": "Date of expiry",
                 "locale": "en"
               }
             ]
