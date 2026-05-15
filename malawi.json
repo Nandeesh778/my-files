@@ -383,18 +383,21 @@
         }
       ]
     },
-    "InfantNationalId02": {
+    "voterID": {
       "format": "ldp_vc",
       "scope": "mock_identity_vc_ldp",
       "order": [
         "surName",
         "otherName",
-        "dateOfBirth",
+        "dob",
         "sex",
-        "nationality",
-        "nrcNumber",
-        "dateOfIssue",
-        "expiryDate"
+        "dateOfRegistration",
+        "stationNumber",
+        "idNumber",
+        "villageName",
+        "chief",
+        "district",
+        "email"
       ],
       "proof_types_supported": {
         "jwt": {
@@ -434,7 +437,7 @@
               }
             ]
           },
-          "dateOfBirth": {
+          "dob": {
             "display": [
               {
                 "name": "Date of Birth",
@@ -450,34 +453,58 @@
               }
             ]
           },
-          "nrcNumber": {
+          "dateOfRegistration": {
             "display": [
               {
-                "name": "NRC Number",
+                "name": "Date of Registration",
                 "locale": "en"
               }
             ]
           },
-          "dateOfIssue": {
+          "stationNumber": {
             "display": [
               {
-                "name": "Date of issuance",
+                "name": "Station Number",
                 "locale": "en"
               }
             ]
           },
-          "expiryDate": {
+          "idNumber": {
             "display": [
               {
-                "name": "Date of expiry",
+                "name": "ID Number",
                 "locale": "en"
               }
             ]
           },
-          "nationality": {
+          "villageName": {
             "display": [
               {
-                "name": "Nationality",
+                "name": "Village Name",
+                "locale": "en"
+              }
+            ]
+          },
+          "chief": {
+            "display": [
+              {
+                "name": "Chief",
+                "locale": "en"
+              }
+            ]
+          },
+          "district": {
+            "display": [         
+            {
+                "name": "District",
+                "locale": "en"
+              }
+            ] 
+          },
+          "email": {
+            "display": [
+              {
+                "name": "Email",
                 "locale": "en"
               }
             ]
@@ -486,7 +513,7 @@
       },
       "display": [
         {
-          "name": "Infant ID",
+          "name": "Voter ID",
           "locale": "en",
           "logo": {
             "url": "https://credissuer-public-assets.s3.ap-south-1.amazonaws.com/wellknown_endpoints/testing/Genovia_credential_type.jpeg",
