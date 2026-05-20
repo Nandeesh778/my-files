@@ -98,10 +98,10 @@
             },
             "display": [
                 {
-                    "name": "Brazil National ID",
+                    "name": "Lumina National ID",
                     "locale": "en",
                     "logo": {
-                        "url": "https://prod-credissuer-assets.s3.ap-south-1.amazonaws.com/default-logos/brazil_logo.png",
+                        "url": "https://dummyimage.com/512x512/1e40af/ffffff.png&text=L",
                         "alt_text": "Logo"
                     },
                     "background_image": {
