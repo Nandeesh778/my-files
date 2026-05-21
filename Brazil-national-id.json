@@ -101,7 +101,7 @@
                     "name": "Lumina National ID",
                     "locale": "en",
                     "logo": {
-                        "url": "https://dummyimage.com/512x512/1e40af/ffffff.png&text=L",
+                        "url": "https://credissuer-public-assets.s3.ap-south-1.amazonaws.com/lumina.png",
                         "alt_text": "Logo"
                     },
                     "background_image": {
