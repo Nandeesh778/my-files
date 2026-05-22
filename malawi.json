@@ -99,7 +99,7 @@
       },
       "display": [
         {
-          "name": "Malawi National ID",
+          "name": "National ID",
           "locale": "en",
           "logo": {
             "url": "https://credissuer-public-assets.s3.ap-south-1.amazonaws.com/Malawi-logos/malawi-national-id.png",
