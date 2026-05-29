@@ -1,0 +1,171 @@
+{
+    "credential_issuer": "https://prod-opt.credissuer.com/certify",
+    "authorization_servers": [
+        "https://prod-opt.credissuer.com"
+    ],
+    "credential_endpoint": "https://prod-opt.credissuer.com/certify/v1/certify/issuance/credential",
+    "credential_configurations_supported": {
+        "voterID02": {
+            "format": "ldp_vc",
+            "scope": "mock_identity_vc_ldp",
+            "order": [
+                "surName",
+                "otherName",
+                "sex",
+                "dateOfRegistration",
+                "stationNumber",
+                "idNumber",
+                "dob",
+                "mrz_line_1",
+                "mrz_line_2",
+                "villageName",
+                "chief",
+                "district",
+                "email"
+            ],
+            "proof_types_supported": {
+                "jwt": {
+                    "proof_signing_alg_values_supported": [
+                        "RS256",
+                        "PS256"
+                    ]
+                }
+            },
+            "holder": {
+                "id": [
+                    {
+                        "name": "id",
+                        "locale": "en"
+                    }
+                ]
+            },
+            "credential_definition": {
+                "type": [
+                    "VerifiableCredential",
+                    "MockVerifiableCredential"
+                ],
+                "credentialSubject": {
+                    "surName": {
+                        "display": [
+                            {
+                                "name": "Sur Name",
+                                "locale": "en"
+                            }
+                        ]
+                    },
+                    "otherName": {
+                        "display": [
+                            {
+                                "name": "Other Name",
+                                "locale": "en"
+                            }
+                        ]
+                    },
+                    "sex": {
+                        "display": [
+                            {
+                                "name": "Sex",
+                                "locale": "en"
+                            }
+                        ]
+                    },
+                    "dateOfRegistration": {
+                        "display": [
+                            {
+                                "name": "Date of Registration",
+                                "locale": "en"
+                            }
+                        ]
+                    },
+                    "stationNumber": {
+                        "display": [
+                            {
+                                "name": "Station Number",
+                                "locale": "en"
+                            }
+                        ]
+                    },
+                    "idNumber": {
+                        "display": [                        
+                            {
+                                "name": "ID Number",
+                                "locale": "en"
+                            }
+                        ]                       
+                    },
+                    "dob": {
+                        "display": [
+                            {
+                                "name": "Date of Birth",
+                                "locale": "en"
+                            }
+                        ]
+                    },
+                    "mrz_line_1": {
+                        "display": [
+                            {
+                                "name": "MRZ Line 1",
+                                "locale": "en"
+                            }
+                        ]
+                    },
+                    "mrz_line_2": {
+                        "display": [
+                            {
+                                "name": "MRZ Line 2",
+                                "locale": "en"
+                            }
+                        ]
+                    },
+                    "villageName": {
+                        "display": [
+                            {
+                                "name": "Village Name",
+                                "locale": "en"
+                            }
+                        ]
+                    },
+                    "chief": {
+                        "display": [
+                            {
+                                "name": "Chief",
+                                "locale": "en"
+                            }
+                        ]
+                    },
+                    "district": {
+                        "display": [
+                            {
+                                "name": "District",
+                                "locale": "en"
+                            }
+                        ]
+                    },
+                    "email": {
+                        "display": [
+                            {
+                                "name": "Email",
+                                "locale": "en"
+                            }
+                        ]
+                    }
+                }
+            },
+            "display": [
+                {
+                    "name": "Electoral Roll record",
+                    "locale": "en",
+                    "logo": {
+                        "url": "https://credissuer-public-assets.s3.ap-south-1.amazonaws.com/Tonga-logos/vote.png",
+                        "alt_text": "Logo"
+                    },
+                    "background_image": {
+                        "uri": "https://img.freepik.com/free-vector/digital-technology-background-with-abstract-wave-border_53876-117508.jpg"
+                    },
+                    "background_color": "#f8efea",
+                    "text_color": "#000000"
+                }
+            ]
+        }
+    }
+}
