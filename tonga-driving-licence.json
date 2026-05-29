@@ -1,0 +1,171 @@
+{
+    "credential_issuer": "https://prod-opt.credissuer.com/certify",
+    "authorization_servers": [
+        "https://prod-opt.credissuer.com"
+    ],
+    "credential_endpoint": "https://prod-opt.credissuer.com/certify/v1/certify/issuance/credential",
+    "credential_configurations_supported": {
+        "drivingLicense04": {
+            "format": "ldp_vc",
+            "scope": "mock_identity_vc_ldp",
+            "order": [
+                "surName",
+                "givenName",
+                "dateOfBirth",
+                "trnNumber",
+                "licenceNumber",
+                "issuedBy",
+                "gender",
+                "issueNumber",
+                "expiryDate",
+                "licenceCode",
+                "firstIssueDate",
+                "vehicleRestrictions",
+                "email"
+            ],
+            "proof_types_supported": {
+                "jwt": {
+                    "proof_signing_alg_values_supported": [
+                        "RS256",
+                        "PS256"
+                    ]
+                }
+            },
+            "holder": {
+                "id": [
+                    {
+                        "name": "id",
+                        "locale": "en"
+                    }
+                ]
+            },
+            "credential_definition": {
+                "type": [
+                    "VerifiableCredential",
+                    "MockVerifiableCredential"
+                ],
+                "credentialSubject": {
+                    "surName": {
+                        "display": [
+                            {
+                                "name": "Sur Name",
+                                "locale": "en"
+                            }
+                        ]
+                    },
+                    "givenName": {
+                        "display": [
+                            {
+                                "name": "Given Name",
+                                "locale": "en"
+                            }
+                        ]
+                    },
+                    "dateOfBirth": {
+                        "display": [
+                            {
+                                "name": "Date of Birth",
+                                "locale": "en"
+                            }
+                        ]
+                    },
+                    "trnNumber": {
+                        "display": [
+                            {
+                                "name": "TRN Number",
+                                "locale": "en"
+                            }
+                        ]
+                    },
+                    "licenceNumber": {
+                        "display": [
+                            {
+                                "name": "Licence Number",
+                                "locale": "en"
+                            }
+                        ]
+                    },
+                    "issuedBy": {
+                        "display": [                        
+                            {
+                                "name": "Issued By",
+                                "locale": "en"
+                            }
+                        ]                       
+                    },  
+                    "gender": {
+                        "display": [
+                            {
+                                "name": "Gender",
+                                "locale": "en"
+                            }
+                        ]
+                    },
+                    "issueNumber": {
+                        "display": [
+                            {
+                                "name": "Issue Number",
+                                "locale": "en"
+                            }
+                        ]
+                    },
+                    "expiryDate": {
+                        "display": [
+                            {
+                                "name": "Expiry Date",
+                                "locale": "en"
+                            }
+                        ]
+                    },
+                    "licenceCode": {
+                        "display": [
+                            {
+                                "name": "Licence Code",
+                                "locale": "en"  
+                            }
+                        ]
+                    },
+                    "firstIssueDate": {
+                        "display": [
+                            {
+                                "name": "First Issue Date",
+                                "locale": "en"
+                            }
+                        ]
+                    },
+                    "vehicleRestrictions": {
+                        "display": [
+                            {
+                                "name": "Vehicle Restrictions",
+                                "locale": "en"
+                            }
+                        ]
+                    },
+                    "email": {
+                        "display": [
+                            {
+                                "name": "Email",
+                                "locale": "en"
+                            }
+                        ]
+                    }
+                }
+            },
+            "display": [
+                {
+                    "name": "Driver’s Licence",
+                    "locale": "en",
+                    "logo": {
+                        "url": "https://credissuer-public-assets.s3.ap-south-1.amazonaws.com/Tonga-logos/drivingLicense.png",
+                        "alt_text": "Logo"
+                    },
+                    "background_image": {
+                        "uri": "https://img.freepik.com/free-vector/digital-technology-background-with-abstract-wave-border_53876-117508.jpg"
+                    },
+                    "background_color": "#f8efea",
+                    "text_color": "#000000"
+                }
+            ]
+        }
+    }
+}
