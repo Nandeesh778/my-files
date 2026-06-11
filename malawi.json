@@ -102,7 +102,7 @@
           "name": "National ID",
           "locale": "en",
           "logo": {
-            "url": "https://credissuer-public-assets.s3.ap-south-1.amazonaws.com/Malawi-logos/malawi-national-id.png",
+            "url": "https://credissuer-public-assets.s3.ap-south-1.amazonaws.com/Tonga-logos/nationalID.png",
             "alt_text": "Logo"
           },
           "background_image": {
@@ -210,7 +210,7 @@
           "name": "Tax ID",
           "locale": "en",
           "logo": {
-            "url": "https://credissuer-public-assets.s3.ap-south-1.amazonaws.com/category-icons/finance.png",
+            "url": "https://credissuer-public-assets.s3.ap-south-1.amazonaws.com/Tonga-logos/tax.png",
             "alt_text": "Logo"
           },
           "background_image": {
@@ -372,7 +372,7 @@
           "name": "Driving License",
           "locale": "en",
           "logo": {
-            "url": "https://credissuer-public-assets.s3.ap-south-1.amazonaws.com/Malawi-logos/driving-license.png",
+            "url": "https://credissuer-public-assets.s3.ap-south-1.amazonaws.com/Tonga-logos/drivingLicense.png",
             "alt_text": "Logo"
           },
           "background_image": {
@@ -516,7 +516,7 @@
           "name": "Voter ID",
           "locale": "en",
           "logo": {
-            "url": "https://credissuer-public-assets.s3.ap-south-1.amazonaws.com/wellknown_endpoints/testing/Genovia_credential_type.jpeg",
+            "url": "https://credissuer-public-assets.s3.ap-south-1.amazonaws.com/Tonga-logos/vote.png",
             "alt_text": "Logo"
           },
           "background_image": {
