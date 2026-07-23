@@ -6,7 +6,7 @@
   "id": "did:web:collectible-dissentiently-arie.ngrok-free.dev:v1:certify:issuers:iiitb",
   "verificationMethod": [
     {
-      "publicKeyMultibase": "z6Mkrp6Fr5g2BDym1bZEoYzJyKgvsFF55DCuV7SxNbkpCqpr",
+      "publicKeyMultibase": "z6MkpTtz93GjY1EZR8aZxkkzaz2Q8UR8KJ96eSWGmoZNVxwb",
       "controller": "did:web:collectible-dissentiently-arie.ngrok-free.dev:v1:certify:issuers:iiitb",
       "id": "did:web:collectible-dissentiently-arie.ngrok-free.dev:v1:certify:issuers:iiitb#m7kU1GARr2oWHL-URgD4FtsIWaV_EQNxDB5H5yMM15M",
       "type": "Ed25519VerificationKey2020",
