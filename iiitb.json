@@ -1,0 +1,15 @@
+{
+  "assertionMethod": [
+    "did:web:collectible-dissentiently-arie.ngrok-free.dev:v1:certify:issuers:iiitb"
+  ],
+  "service": [],
+  "id": "did:web:collectible-dissentiently-arie.ngrok-free.dev:v1:certify:issuers:iiitb",
+  "verificationMethod": [],
+  "@context": [
+    "https://www.w3.org/ns/did/v1"
+  ],
+  "alsoKnownAs": [],
+  "authentication": [
+    "did:web:collectible-dissentiently-arie.ngrok-free.dev:v1:certify:issuers:iiitb"
+  ]
+}
