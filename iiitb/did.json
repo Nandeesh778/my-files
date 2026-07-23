@@ -6,7 +6,7 @@
   "id": "did:web:nandeesh778.github.io:my-files:iiitb",
   "verificationMethod": [
     {
-      "publicKeyMultibase": "z6Mkfpj1nKiShNgnZnQxhXrmzNsMU1RxdXQy5VVxdG6iSCUG",
+      "publicKeyMultibase": "z6Mktj1sw2rH3n1aQ5eTSPYVj5KtzCFZfos7129DvGdJbtut",
       "controller": "did:web:nandeesh778.github.io:my-files:iiitb",
       "id": "did:web:nandeesh778.github.io:my-files:iiitb#m7kU1GARr2oWHL-URgD4FtsIWaV_EQNxDB5H5yMM15M",
       "type": "Ed25519VerificationKey2020",
@@ -16,7 +16,9 @@
   "@context": [
     "https://www.w3.org/ns/did/v1"
   ],
-  "alsoKnownAs": [],
+  "alsoKnownAs": [
+    "IIIT Bengaluru Education"
+  ],
   "authentication": [
     "did:web:nandeesh778.github.io:my-files:iiitb#m7kU1GARr2oWHL-URgD4FtsIWaV_EQNxDB5H5yMM15M"
   ]
