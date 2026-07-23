@@ -1,15 +1,23 @@
 {
   "assertionMethod": [
-    "did:web:collectible-dissentiently-arie.ngrok-free.dev:v1:certify:issuers:iiitb"
+    "did:web:collectible-dissentiently-arie.ngrok-free.dev:v1:certify:issuers:iiitb#m7kU1GARr2oWHL-URgD4FtsIWaV_EQNxDB5H5yMM15M"
   ],
   "service": [],
   "id": "did:web:collectible-dissentiently-arie.ngrok-free.dev:v1:certify:issuers:iiitb",
-  "verificationMethod": [],
+  "verificationMethod": [
+    {
+      "publicKeyMultibase": "z6Mkrp6Fr5g2BDym1bZEoYzJyKgvsFF55DCuV7SxNbkpCqpr",
+      "controller": "did:web:collectible-dissentiently-arie.ngrok-free.dev:v1:certify:issuers:iiitb",
+      "id": "did:web:collectible-dissentiently-arie.ngrok-free.dev:v1:certify:issuers:iiitb#m7kU1GARr2oWHL-URgD4FtsIWaV_EQNxDB5H5yMM15M",
+      "type": "Ed25519VerificationKey2020",
+      "@context": "https://w3id.org/security/suites/ed25519-2020/v1"
+    }
+  ],
   "@context": [
     "https://www.w3.org/ns/did/v1"
   ],
   "alsoKnownAs": [],
   "authentication": [
-    "did:web:collectible-dissentiently-arie.ngrok-free.dev:v1:certify:issuers:iiitb"
+    "did:web:collectible-dissentiently-arie.ngrok-free.dev:v1:certify:issuers:iiitb#m7kU1GARr2oWHL-URgD4FtsIWaV_EQNxDB5H5yMM15M"
   ]
 }
