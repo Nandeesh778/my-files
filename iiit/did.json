@@ -1,0 +1,25 @@
+{
+  "assertionMethod": [
+    "did:web:nandeesh778.github.io:my-files:iiit#VyzPZqzDvdMqRA0ISDaxyLKHBG_hByuWroMn4VVFOEQ"
+  ],
+  "service": [],
+  "id": "did:web:nandeesh778.github.io:my-files:iiit",
+  "verificationMethod": [
+    {
+      "publicKeyMultibase": "z6MkrHbDsx1Vx8LxqYTYvzNzYWbyohu1xVcFk5SgUC7jokH5",
+      "controller": "did:web:nandeesh778.github.io:my-files:iiit",
+      "id": "did:web:nandeesh778.github.io:my-files:iiit#VyzPZqzDvdMqRA0ISDaxyLKHBG_hByuWroMn4VVFOEQ",
+      "type": "Ed25519VerificationKey2020",
+      "@context": "https://w3id.org/security/suites/ed25519-2020/v1"
+    }
+  ],
+  "@context": [
+    "https://www.w3.org/ns/did/v1"
+  ],
+  "alsoKnownAs": [
+    "IIIT Bengaluru Education"
+  ],
+  "authentication": [
+    "did:web:nandeesh778.github.io:my-files:iiit#VyzPZqzDvdMqRA0ISDaxyLKHBG_hByuWroMn4VVFOEQ"
+  ]
+}
