@@ -6,7 +6,7 @@
   "id": "did:web:nandeesh778.github.io:my-files:iiitb",
   "verificationMethod": [
     {
-      "publicKeyMultibase": "z6MkvS7EB3xQUMoxx91zm1oNrZF8ykFqDXFCD86KgEDSKirK",
+      "publicKeyMultibase": "z6Mkopt8qaURGqYZcdGTthaVdFRX5o1on9Pr52VH8gfhJ7Rb",
       "controller": "did:web:nandeesh778.github.io:my-files:iiitb",
       "id": "did:web:nandeesh778.github.io:my-files:iiitb#NioNMwmQh7b38Eoo_Yj0g3pSTfJpEF5q3mt7DLMUEss",
       "type": "Ed25519VerificationKey2020",
