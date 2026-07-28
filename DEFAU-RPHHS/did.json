@@ -6,7 +6,7 @@
   "id": "did:web:nandeesh778.github.io:my-files:DEFAU-RPHHS",
   "verificationMethod": [
     {
-      "publicKeyMultibase": "z6MkerGeWHiunmdkwgYnB2ZyYnBFtjNj14cT4VCbNCDNZFvm",
+      "publicKeyMultibase": "z6MkjyWAtQ7bToTmGhmxKaM6YfnXyzBAGRD88KzAXzkffJe9",
       "controller": "did:web:nandeesh778.github.io:my-files:DEFAU-RPHHS",
       "id": "did:web:nandeesh778.github.io:my-files:DEFAU-RPHHS#MQAsl1wobXHqe0jn6RqdEkj_4u78fHpauaSuErh4KSU",
       "type": "Ed25519VerificationKey2020",
