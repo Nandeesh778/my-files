@@ -1,0 +1,25 @@
+{
+  "assertionMethod": [
+    "did:web:nandeesh778.github.io:my-files:DEFAU-RPHHS#MQAsl1wobXHqe0jn6RqdEkj_4u78fHpauaSuErh4KSU"
+  ],
+  "service": [],
+  "id": "did:web:nandeesh778.github.io:my-files:DEFAU-RPHHS",
+  "verificationMethod": [
+    {
+      "publicKeyMultibase": "z6MkerGeWHiunmdkwgYnB2ZyYnBFtjNj14cT4VCbNCDNZFvm",
+      "controller": "did:web:nandeesh778.github.io:my-files:DEFAU-RPHHS",
+      "id": "did:web:nandeesh778.github.io:my-files:DEFAU-RPHHS#MQAsl1wobXHqe0jn6RqdEkj_4u78fHpauaSuErh4KSU",
+      "type": "Ed25519VerificationKey2020",
+      "@context": "https://w3id.org/security/suites/ed25519-2020/v1"
+    }
+  ],
+  "@context": [
+    "https://www.w3.org/ns/did/v1"
+  ],
+  "alsoKnownAs": [
+    "Default User Organization"
+  ],
+  "authentication": [
+    "did:web:nandeesh778.github.io:my-files:DEFAU-RPHHS#MQAsl1wobXHqe0jn6RqdEkj_4u78fHpauaSuErh4KSU"
+  ]
+}
