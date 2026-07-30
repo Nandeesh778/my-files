@@ -1,0 +1,11 @@
+{
+  "status": "success",
+  "status_code": 200,
+  "message": {
+    "en": "NIF number validated successfully",
+    "pt": "Número de NIF validado com sucesso"
+  },
+  "data": {
+    "nif_number": "109505064"
+  }
+}
